@@ -53,7 +53,7 @@ namespace MiniShopping
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Login}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Contact}/{id?}");
             });
         }
     }

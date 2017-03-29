@@ -17,13 +17,13 @@ namespace MiniShopping.Controllers
             return View();
         }
 
-        public void Neo4jConnector()
+        /*public void Neo4jConnector()
         {
             using (var driver = GraphDatabase.Driver("bolt://localhost:7687", AuthTokens.Basic("neo4j", "neo4j")))
             using (var session = driver.Session())
             {
                 //session.Run()
             }
-        }
+        }*/
     }
 }
